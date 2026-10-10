@@ -1,11 +1,52 @@
 <!doctype html>
-<html lang="hu">
+<html lang="hu" data-entry="development">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#101917" />
     <meta name="description" content="Egyjátékos fantasy szerepjáték: karakteralkotás, felfedezés és kalandok egy elfeledett világban." />
     <title>Túlélő — Az utolsó menedék</title>
+    <style>
+      html { background: #101917; color: #eee5ce; }
+      body { margin: 0; }
+      .startup-card { max-width: 620px; margin: 12vh auto; padding: 32px; font: 18px/1.6 Georgia, serif; }
+      .startup-card h1 { color: #dac48b; font-size: 40px; }
+      .startup-card a { color: #e6cb89; }
+      #startup-error-detail { overflow-wrap: anywhere; font: 13px/1.5 monospace; color: #bcbba9; }
+      .startup-card [hidden] { display: none; }
+    </style>
   </head>
-  <body><div id="app"></div><script type="module" src="/src/main.ts"></script></body>
+  <body>
+    <div id="app"><main class="startup-card" id="startup-screen">
+      <h1>Túlélő</h1>
+      <p id="startup-message">A kaland előkészítése…</p>
+      <div id="startup-error" role="alert" hidden>
+        <p>Nem sikerült elindítani a játékot. Nyisd meg a kicsomagolt játékfájlt Chrome vagy Edge böngészőben.</p>
+        <p id="startup-error-detail"></p>
+        <p><a href="./kiadas/tulelo-jatek.html" id="startup-game-link">A játékfájl megnyitása</a> · <a href="" id="startup-reload">Újrapróbálás</a></p>
+      </div>
+      <noscript><p>A játékhoz JavaScript szükséges. Nyisd meg ezt a fájlt JavaScriptet engedélyező Chrome vagy Edge böngészőben.</p></noscript>
+    </main></div>
+    <script data-startup-guard>
+      (function () {
+        var standalone = document.documentElement.getAttribute('data-entry') === 'standalone';
+        function showError(details) {
+          if (!document.getElementById('startup-screen')) return;
+          document.getElementById('startup-message').textContent = 'Az indulás megszakadt.';
+          document.getElementById('startup-error').hidden = false;
+          document.getElementById('startup-error-detail').textContent = details || '';
+          document.getElementById('startup-game-link').hidden = standalone;
+        }
+        window.addEventListener('error', function (event) { showError(event.message || 'A játék egyik fájlja nem tölthető be.'); }, true);
+        window.addEventListener('unhandledrejection', function (event) { showError(String(event.reason && event.reason.message || event.reason || 'Ismeretlen indulási hiba.')); });
+        document.getElementById('startup-reload').onclick = function (event) { event.preventDefault(); window.location.reload(); };
+        if (!standalone && window.location.protocol === 'file:') {
+          window.location.replace('./kiadas/tulelo-jatek.html');
+          return;
+        }
+        window.setTimeout(function () { showError('Az előkészítés nem fejeződött be. Próbáld újra megnyitni a játékfájlt.'); }, 15000);
+      })();
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

@@ -10,8 +10,17 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:browser": "node tests/browser.mjs",
-    "test:standalone": "node tests/standalone.mjs"
+    "test:standalone": "node tests/standalone.mjs",
+    "test:distribution": "node tests/distribution.mjs"
   },
-  "dependencies": { "phaser": "3.90.0" },
-  "devDependencies": { "typescript": "5.9.3", "vite": "7.1.9", "vitest": "3.2.4", "@playwright/test": "1.56.0" }
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.0",
+    "fflate": "0.8.2",
+    "typescript": "5.9.3",
+    "vite": "7.1.9",
+    "vitest": "3.2.4"
+  }
 }

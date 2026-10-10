@@ -4,7 +4,11 @@ Magyar, egyjátékos, böngészős fantasy RPG a Túlélők Földje levelezős j
 
 ## Kipróbálás telepítés nélkül
 
-A `kiadas/tulelo-jatek.html` egy önálló játékfájl. Töltsd le, és nyisd meg Chrome, Edge vagy Firefox böngészőben. A grafika és a program benne van; nem kell Node, játékprogram-telepítés vagy szerver. A mentés ebben a böngészőben tárolódik. A menüben a mentést JSON-fájlként le is töltheted, majd másik böngészőben betöltheted.
+**[A játék letöltése](https://github.com/tmisi76/tulelo/raw/refs/heads/codex/first-playable/kiadas/tulelo-kiprobalas.zip)**
+
+Töltsd le a `tulelo-kiprobalas.zip` fájlt, csomagold ki, és nyisd meg a benne található **`index.html`** fájlt Chrome vagy Edge böngészőben. A játék-ZIP csak ezt az egy játékfájlt és egy rövid útmutatót tartalmaz. A grafika és a program benne van; nem kell Node, játékprogram-telepítés vagy szerver.
+
+A `kiadas/tulelo-jatek.html` ugyanennek a játéknak a külön is megnyitható fájlja. A forráskód mappájának `index.html` fájlja helyi megnyitáskor ide irányít át. A mentés ebben a böngészőben tárolódik. A menüben a mentést JSON-fájlként le is töltheted, majd másik böngészőben betöltheted.
 
 Ha egy böngésző nem enged helyi mentést a letöltött HTML-ben, használd a menü **Mentés letöltése** és **Mentés betöltése fájlból** funkcióit. A fejlesztői szerverről indított változat IndexedDB-mentését külön is ellenőrizzük.
 
@@ -56,11 +60,12 @@ npm test
 npm run build
 ```
 
-A build a `dist/` statikus weboldalt és a `kiadas/tulelo-jatek.html` önálló fájlt is létrehozza. A böngészős regresszió a futó fejlesztői szervert ellenőrzi:
+A build a `dist/` statikus weboldalt, a `kiadas/tulelo-jatek.html` önálló fájlt és a `kiadas/tulelo-kiprobalas.zip` játékcsomagot is létrehozza. A böngészős regresszió a futó fejlesztői szervert ellenőrzi:
 
 ```sh
 npm run test:browser
 npm run test:standalone
+npm run test:distribution
 ```
 
 A teszt rendszer-Chromiumot használ; alapértelmezett útvonala `/usr/bin/chromium`. Más gépen `TULELO_CHROMIUM_PATH` változóval megadható a böngésző elérési útja. A tesztcél `TULELO_TEST_URL` változóval módosítható.
@@ -68,5 +73,7 @@ A teszt rendszer-Chromiumot használ; alapértelmezett útvonala `/usr/bin/chrom
 A `test:standalone` az elkészült HTML-fájlt szerver és hálózat nélkül nyitja meg, és a grafika betöltését, a mozgást, egy küldetés felvételét, valamint a mentés letöltését és visszatöltését ellenőrzi. Előtte `npm run build` szükséges.
 
 A felhőkörnyezet kezelt Chromium böngészője tiltja a `file://` címeket. Itt `TULELO_STANDALONE_HTTP=1 npm run test:standalone` használható: a teszt csak az egyetlen HTML-dokumentumot szolgálja ki, majd a játék közben lekapcsolja a hálózatot. Ezt a változatot ellenőriztük; a közvetlen helyi fájlmegnyitást ebben a környezetben nem lehetett tesztelni.
+
+A `test:distribution` közvetlenül a játék-ZIP gyökerében lévő `index.html` tartalmát ellenőrzi. A próba karaktert és játékjelenetet indít külön fájlok és internet nélkül, letiltott mentéstárolóval is. A JavaScript letiltását és egy valódi indulási szintaktikai hibát is kipróbálja: ezeknél olvasható útmutató jelenik meg üres képernyő helyett.
 
 A tervek és a forráskutatási napló a [terv](terv/jatekterv.md) könyvtárban olvashatók.
