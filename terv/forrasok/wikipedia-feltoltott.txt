@@ -1,0 +1,129 @@
+
+
+Wikipédia
+Keresés a Wikipédián
+Keresés
+Adományok
+Fiók létrehozása
+Bejelentkezés
+
+Wiki Loves Monuments: fényképezz le egy műemléket, segítsd a Wikipédiát és nyerj!
+Tudj meg többet
+
+Tartalomjegyzék elrejtés
+Bevezető
+A játék története
+
+Előzmények
+A játék menete
+A kezdetek
+Az első évek után
+A játék fantáziavilága
+Jegyzetek
+Források
+További információk
+Túlélők Földje
+
+Szócikk
+Vitalap
+Olvasás
+Szerkesztés
+Laptörténet
+
+Megjelenés elrejtés
+Betűméret
+
+Kicsi
+
+Normál
+
+Nagy
+Szélesség
+
+Szokásos
+
+Széles
+Színek (béta)
+
+Automatikus
+
+Világos
+
+Sötét
+Ellenőrzött
+A Wikipédiából, a szabad enciklopédiából
+A Túlélők Földje (TF) az első magyar kereskedelmi célú levelezős szerepjáték, amelyet Tihor Miklós hozott létre 1992-ben. A játék 2012-ben ünnepelte a 20 éves évfordulóját és így az iparág legrégebbi – megszakítás és tulajdonosváltás nélküli – honi vállalkozása. A játék a hazai szerepjáték-ágazat rövid történelme szempontjából is fontosnak tekinthető, hiszen azon sajátos időszakban készült, amikor a rendszerváltás után – a több évtizedes késéssel – megjelenő szerepjáték első kezdeti lépéseit tette meg Magyarországon az üzleti szektorban. A játékra alapított Beholder Bt. pedig fontos katalizátor volt a szerepjáték népszerűsítésében.
+
+A játék története
+Előzmények
+	Bővebben: Beholder Kft.
+A 80-as években az egyetemista Tihor Miklós meghívást kapott egy svédországi programozó versenyre, ahol a házigazdák megmutatták az egyetemüket. Itt ismerték meg az Internetet és a "Multi-user Dungeon (MUD)" játék rendszerrel, ahol a gépek összekapcsolva közös szerepjátéknak adtak lehetőséget. Tihor ekkor elhatározta, hogy Magyarországon is létrehoz hasonlót. Később újra foglalkoztatta a MUD ötlete, így – hogy felmérje az igényeket – feladott egy hirdetést az 576 KByte újságban. Közel 150 ember válaszolt a hirdetésre, amit Tihor kevesellt, így változtatva tervein egy levelezős játék (angolul: "Play-by-Mail" vagyis PBM) rendszerben kezdett inkább gondolkodni a KJC games által üzemeltetett "Monster Islands" játék alapján (amelynek évekig játékosa is volt egy Fairlight nevezetű karakterrel). Tihor Miklós egy nyaralás alatt felvázolta magában a "Túlélők Földje" fantasztikus világát, ahol egy világégés után a túlélők egy csodálatos mód épen maradt, szörnyektől hemzsegő félszigetre menekülnek és próbálnak boldogulni. Nekilátott a programozásnak is Borland C-ben és 1991 végén már javában készültek a játékelemek (szörnyek, térképek és tárgyak).
+
+A játék menete
+	Bővebben: Levelezős szerepjáték
+A Tihor Miklós által tervezett levelezős szerepjáték lényege megegyezett a külföldön már ismert rendszerek alapjaival.
+
+Az első lépésben a játékosok egy formanyomtatványt töltöttek ki, amit levélben küldtek el a játék szervezőjének, és befizettek egy meghatározott alapdíjat. Ezen a nyomtatványon megválasztották az általuk irányítani kívánt karakter faját, nemét, kinézetét és nevét. A pontos (technikai) tulajdonságokat – a faji sajátosságokat figyelembe véve – aztán már a játékot vezérlő számítógép generálta véletlenszerűen (pl.: ügyesség, erő stb.). Ezeket az adatokat levélben az első gép által generált minta-kalanddal együtt megkapta levélben a játékos.
+
+Ezután a játék rendes menete úgynevezett "fordulókban" történt. A hagyományos postai levelezések sajátosságait figyelembe véve a játékosok 9 naponként végezhettek egy cselekménysorozatot, vagyis fordulót. Ekkor lényegében egy maximált cselekményszámban és adott számú pontokért adhattak ki utasításokat az ún. "Utasítás lapon" (UL),[1] pl.: menj keletre 3 mérföldet, aztán keress kincset. Az utasításokat az UL-en aztán a játékos postai úton küldte el a feldolgozó központnak. Ott betáplálták a játékot vezérlő számítógépbe, az pedig létrehozta az eredményt, amit kinyomtatva visszaküldtek a játékosnak. A levélhez grafikus térkép, karakterlap és tárgylista is volt mellékelve a kalandok és csaták szöveges leírása mellett.[2] Ez egy forduló ciklusa. A játék különlegességét az adja, hogy egyrészt a kalandozások során véletlenszerűen generált szörny ellenfelekkel a harc végkimenetele számos paramétertől függően (erő, fegyverzet, páncélzat stb.) rendkívül változatos. Másrészt a virtuális világban – az egymástól a való világban távol élő – tagok találkozhattak és bizonyos keretek között közösségi életet élhettek. Ezen felül az egész játéknak volt egy izgalmas kerettörténete is, ami befolyásolja az eseményeket. Mára az online változat adminisztrációja átalakult a technikai lehetőségek következtében.
+
+A kezdetek
+Habár kollégái úgy tartották, hogy értelmetlen és kudarcra ítélt a projekt, de Tihor folytatta a fejlesztést és hamarosan világossá vált, hogy a fejlesztés teljes embert kíván. 1992-ben Tihor Miklós felmondott a munkahelyén és Mazán Zsolttal megalapították a Beholder Bt.-t. Első gépük egy 386-os PC volt, és a levelezős játék fordulóit egy HP IIIP lézernyomtatóval nyomtatták ki. Elindult a játék éles tesztelése, ami során szűk baráti kör és családtagok kipróbálták a játékot, és a tapasztalatok alapján elvégezték a végső fejlesztéseket is. A több heti, napi 16 órás tesztelés meghozta az eredményt és a játék készen állt az üzemszerű működésre. Írtak néhány levelező partnernek és a korábbi 150 jelentkezőnek, akik még az 576 KByte újságban megjelent hirdetésre válaszoltak. A reakció rendkívül pozitív volt. Szinte mindenki válaszolt, jelentkezett a játékba és fizetett be pénzt az első fordulóra, ami a pénzügyi alapját adta az egész vállalkozásnak. Lényegében ezzel létrejött az első magyar levelezős szerepjáték, a "Túlélők Földje". 1992. június 18-án elkezdődött az első fordulók betáplálása, de a terhelés végett ezt fokozatosan két hét alatt végezték el. Hamar világossá vált, hogy a 150 játékossal megsokasodtak a feladatok, és ráadásul, ahogy híre ment a játéknak, özönleni kezdtek az új játékosok. Ekkor a Beholder Bt. még Tihor néhány négyzetméteres szobájában működött. Nappal az utasítások betáplálása, fordulók nyomtatása és borítékolása történt, este pedig a programozás és fejlesztés. Napi szinten ekkor még csak 30-40 fordulót tudtak kezelni. A technika is szűk keresztmetszet volt. Nem volt optimális a rendszer se, mert a játékos mozgásához készült térkép képi formátum volt és a betáplálás és a nyomtatás közvetlenül egymás után történt. A nyomtató maximális kapacitása négy lap volt percenként, de némi fejlesztés után már az emberi erőforrás lett a rendszer gyenge pontja. Nyilvánvalóvá vált, hogy kevés a két ember, és alkalmazottakra is szükség van. A játékot ismerő emberre volt szükségük, aki tudott válaszolni a játékosok felmerülő kérdéseire, így a cég első alkalmazottja a játékban kezdetek óta részt vevő Erdős Árpád lett, aki lelkesedésben felhasználói adatbázist készített a játékról (térkép, szörnyek, tárgyak stb.), és ezt megosztotta más játékosokkal. Erdős továbbra is játékos is volt egyben, így ügyeltek, hogy a fejlesztésekről minél kevesebbet tudjon. Később megszokott részévé vált a TF-nek az e fajta rajongói tudásbázisok megosztása. Gőzerővel folyt a fejlesztés is, és a készítőknek komoly erőfeszítés kellett, hogy lépést tartsanak az egyre népszerűbb játék megnövekedett igényeivel. Kisebb fejlesztői pánikot okozott, amikor a hatalmas játéktéren Keleten tevékenykedő játékosok közösségi tevékenységeik közben felvetették a nyugati expedíció ötletét, és a "Nyomuljunk Keletre!" felhívással egyes karakterek megindultak egyenes vonalban Keletre ahelyett, hogy lassan felfedeznék környezetüket. A játékmező keleti fele egész egyszerűen még nem készült el ekkor, és nem is akarták elkapkodni, hiszen a játék későbbi fejlődésének kellett szabad mozgástér. Hogy mentsék a helyzetet, gyorsan létrehoztak a szigetet kettészelő csatornát, amelyben hemzsegnek a vízi szörnyek és úszási képesség híján áthatolhatatlan.
+
+Az első évek után
+A játék sikere a '90-es évek második felében is töretlen maradt. Folyamatosan fejlesztették a kerettörténetet. Új ellenfelek és istenek kerültek a játékba. A Túlélők Földjével kapcsolatban gyűjtögetős kártyajáték jelent meg, a "Hatalom Kártyái kártyajáték", és saját regények is.
+
+Túlélők Földje off-line – vagyis internetet nem használó – játékrendszerben kialakultak az egymást személyesen nem ismerő embereket összekapcsoló közösségek. A játékosok közötti kapcsolattartás a fordulókkal együtt postázott és a cég által továbbküldött levelekben történt. A játék izgalmához társul a postai küldemény várása, amely külön sajátossága a műfajnak.[3] A játékban is megjelentek az úgynevezett "Közös tudatok", ahol a karakterek egyesülnek egy cél érdekében. A Beholder Kft. évente kétszer élő találkozókat is szervez, nagy sikerrel. Az összejövetelek lehetőséget adnak a játékosok személyes találkozásához, a készítőkkel való megbeszélésekhez, és a karakterek megmérettetéséhez az úgynevezett "Alanori Olimpia" keretében. A másik kommunikációs csatorna a cég saját belső kiadványa, a "Ghalla News" lett. Hamarosan egy külön lakást kellett bérelni a vállalkozásnak, mert a kis szobát már kinőtte. Az egyszerre 5000 játékos karakter mozgását kezelni tudó rendszerben folyamatos volt az új játékosok érkezése és valamelyest a régiek lemorzsolódása. A játék csúcsán több ezer ügyfél játszott a rendszerben hétről-hétre és voltak olyanok, akik egyszerre több játékos karaktert is mozgattak.
+
+Mára – érthető módon – a levelezős szerepjáték jelentősége csökkent, és így a játékosok száma is. A játék 2014-ben még mindig működik, bár a játékosok közönséges levél helyett már e-mailben olvashatják el aktuális kalandjaikat. Olyan játékosok is vannak, akik több mint tíz éve játszanak folyamatosan a Túlélők Földjén. A Beholder Kft. elmondása szerint jelenleg azon dolgozik, hogy a teljes játékot újraírja online, böngészőből játszható verzióként.
+
+A játék fantáziavilága
+A korszakra jellemzően a játék fantáziavilága az akkor meghatározó amerikai Dungeons & Dragons szerepjáték inspirációjára készült. A cég neve, a Beholder is egy D&D szörny volt.
+
+Technikai szempontból fontos volt, hogy kezelhető legyen a játék, így a játékosok egy félszigeten, "A Túlélők földjén" (nyugati része Erdauin, keleti része Yaurr) kalandoznak, ami 700.000 négyzetmérföld területű, vagyis ennek megfelelő játékmező lett. Az alaptörténet szerint egy világégés után a kalandozó túlélők erre a csodálatos mód épen maradt, szörnyektől hemzsegő területre érkeznek. Ennek értelmében a szárazföld felőli rész (Kelet) nem lakható lezárt terület.
+
+A háttértörténet első verziója szerint itt kell boldogulniuk a játékosoknak. Mint minden klasszikus szerepjáték világnak, itt is több Istenség oltalmát választhatják a kalandozók, amelyek különböző jellemtípust képviselnek.
+
+Ghalla istenei:
+
+Raia: A jóság és a fény istene
+Elenios: A bűbáj istene
+Sheran: A természet semleges istene
+Fairlight: Semleges varázsló istenség. Ezenfelül egy ún. "D&D élet kaland játékban" Tihor Miklós által játszott varázsló karakter neve is volt.
+Tharr: A háború semleges harci istene
+Leah: Gonosz halálistenség
+Dornodon: A TF legfiatalabb istene, eredeti nevén Nord, egy hataloméhes mágus volt, aki tűzvihart szabadított Ghallára, a TF világára. Istenné vált az elpusztultak lelki energiájának köszönhetően, és ő lett a tüzek ura.
+Később, a játék fejlesztése során – ilyenkor megszokott módon – bonyolódott a történet, és megalkottak három ősistenséget: Rhatt (Abszolút jóság istene), Bufa (Művészetek, tréfa, szerelem istennője) és Chara-din (A pusztítás ura, és káoszisten). (Több információ ezen istenekről Brian McAllister (Makó Katalin) Kitaszítottak, valamint Átkozottak című műveiben.)
+
+A játékosok által választható karakterek pedig a következők:[4]
+
+Ember
+Elf: Klasszikus szerepjáték faj. (TF-beli őshazájuk Laralien, amit Nord tűzvihara elpusztított, majd a vadmágia újrateremtette egy makroorganizmusként. (Forrás: Brian McAllister: Két világ közt című regénye))
+Törpe: Klasszikus szerepjáték faj.
+Árnymanó: Leginkább a D&D "surranójának" megfelelő faj. Gyenge, de ügyes, jó tolvajok.
+Troll: Klasszikus szerepjáték faj. Jól regenerálódó, erős, tompa agyú lény.
+Gnóm: Klasszikus szerepjáték faj. Gyenge, de okos lény, Ghalla, és a Túlélők Földjének legkiválóbb feltalálói/mágusai.
+Alakváltó: Alakjukat időlegesen változtatni képes faj. Képességeik lassabban fejlődnek.
+Kobudera: Harcművész, ügyes faj.
+Mutáns: Dornodon tűzvihara után sok értelmes lény eltorzult, mivel a tűzvihar hihetetlen méretű vadmágiát szabadított Ghallára. Kifejezetten torz, pikkelyes-szarvas lények, hihetetlen pszi-képességekkel.
+A TF világának szörnyei esetén fontos volt, hogy elrugaszkodjanak a D&D kifejezésektől, hogy a későbbi jogi vitákat elkerüljék. Itt az alkotók elengedték fantáziájukat, így születtek meg az olyan szörnyek, mint: rambó bogár, démontetű, bolhakutya, gyilkos mókus, kőszáli disznó vagy kaffogó hebrencs, joviális mikroszockó, orbitális mackósajt, vagy akár a trosnyogó szakóca. A harc menete és technikája nagy vonalakban megfelelt a klasszikus szerepjáték szabályoknak.
+
+Jegyzetek
+"Utasítás lap". 2015. szeptember 23. dátummal az eredeti címről archiválva. Hozzáférés: 2012. május 15.
+"Minta forduló". 2012. május 23. dátummal az eredeti címről archiválva. Hozzáférés: 2012. május 15.
+Rajongók a levél várásról - fórum
+Választható fajok
+Források
+Alanori Krónika II. évf. 7. (19.) szám, 1997. július
+Túlélők Földje
+Ghalla világa összes szörnye
+További információk
+Beholder Kft. weboldala
+mvsz
+Szerepjáték
+Kategória: Szerepjátékok
+A lap utolsó módosítása: 2025. július 17., 10:22 A lap a Parsoiddal lett megjelenítve.
+A lap szövege Creative Commons Nevezd meg! – Így add tovább! 4.0 licenc alatt van; egyes esetekben más módon is felhasználható. Részletekért lásd a felhasználási feltételeket.
+Adatvédelmi irányelvekA WikipédiárólJogi nyilatkozatJogi és biztonsági elérhetőségekMagatartási kódexFejlesztőkStatisztikákSütinyilatkozatMobil nézet
+Wikimedia Foundation
+Powered by MediaWiki

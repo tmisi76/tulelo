@@ -1,0 +1,17 @@
+{
+  "name": "tulelo-rpg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/package-standalone.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:browser": "node tests/browser.mjs",
+    "test:standalone": "node tests/standalone.mjs"
+  },
+  "dependencies": { "phaser": "3.90.0" },
+  "devDependencies": { "typescript": "5.9.3", "vite": "7.1.9", "vitest": "3.2.4", "@playwright/test": "1.56.0" }
+}
